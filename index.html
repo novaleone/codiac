@@ -112,8 +112,8 @@
         </div>
       </div>
     </section>
-    <section id="gallery"
-    <section id="gallery1"
+    <section id="gallery">
+    <section id="gallery1">
     <div class="container">
         <div class="col-lg-4">
             <a href="img/img1.jpg" data-title="Inauguration" data-lightbox="CODIAC">
@@ -184,7 +184,19 @@
     <footer>
       <p class="text-center">NeoKnight Copyright &copy; 2018</p>
     </footer>
-
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBJJ-fIBrtT-9EPM5s5C96M-jtXZvPAQiw",
+        authDomain: "myweb-40562.firebaseapp.com",
+        databaseURL: "https://myweb-40562.firebaseio.com",
+        projectId: "myweb-40562",
+        storageBucket: "myweb-40562.appspot.com",
+        messagingSenderId: "523706669217"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
